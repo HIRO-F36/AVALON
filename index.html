@@ -55,9 +55,9 @@
     </script>
     <style>
         body {
-            background-color: #F8FAFC;
-            background-image: none;
-            color: #1F2937;
+            background-color: #0A192F;
+            background-image: radial-gradient(circle at top, #172A45 0%, #0A192F 100%);
+            color: #F8FAFC;
             font-family: 'Noto Sans JP', sans-serif;
             -webkit-font-smoothing: antialiased;
         }
@@ -69,7 +69,7 @@
         .premium-card {
             background: linear-gradient(145deg, #FFFFFF 0%, #F8FAFC 100%);
             border: 1px solid rgba(212, 175, 55, 0.2);
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15);
             position: relative;
             overflow: hidden;
         }
@@ -107,8 +107,8 @@
 
         /* Custom Scrollbar for a polished look */
         ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #F8FAFC; }
-        ::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 4px; }
+        ::-webkit-scrollbar-track { background: #0A192F; }
+        ::-webkit-scrollbar-thumb { background: #172A45; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #D4AF37; }
 
         /* Swiper Styles */
@@ -129,7 +129,7 @@
         }
     </style>
 </head>
-<body class="min-h-screen flex flex-col selection:bg-brand-gold selection:text-white bg-slate-50 text-gray-800">
+<body class="min-h-screen flex flex-col selection:bg-brand-gold selection:text-white bg-[#0A192F] text-gray-200">
 
     <!-- Header -->
     <header class="sticky top-0 z-50 bg-brand-navy/90 backdrop-blur-md border-b border-brand-border">
@@ -260,8 +260,8 @@
         <section id="area3">
             <div class="flex items-center gap-3 mb-6">
                 <div class="w-1 h-6 bg-brand-gold"></div>
-                <h2 class="font-serif-jp text-xl text-gray-900 tracking-widest">保有資産詳細</h2>
-                <span class="text-sm text-gray-500 ml-2">2 作品</span>
+                <h2 class="font-serif-jp text-xl text-white tracking-widest">保有資産詳細</h2>
+                <span class="text-sm text-gray-300 ml-2">2 作品</span>
             </div>
 
             <!-- カバーフロー表示エリア -->
@@ -280,11 +280,11 @@
         </section>
 
         <!-- 【エリア4】コンシェルジュ＆エスケープルート -->
-        <section id="area4" class="mt-16 border-t border-gray-200 pt-12 pb-8">
+        <section id="area4" class="mt-16 border-t border-[#1E2A4A] pt-12 pb-8">
             <div class="text-center mb-8">
                 <i class="fa-solid fa-headset text-3xl text-brand-gold mb-4"></i>
-                <h2 class="font-serif-jp text-2xl text-gray-900 mb-2">オーナー様専用コンシェルジュ</h2>
-                <p class="text-sm text-gray-600 max-w-xl mx-auto">操作方法、資産の出金、追加のご相談など、専任スタッフがサポートいたします。</p>
+                <h2 class="font-serif-jp text-2xl text-white mb-2">オーナー様専用コンシェルジュ</h2>
+                <p class="text-sm text-gray-300 max-w-xl mx-auto">操作方法、資産の出金、追加のご相談など、専任スタッフがサポートいたします。</p>
             </div>
 
             <div class="flex flex-col sm:flex-row gap-4 justify-center max-w-2xl mx-auto">
